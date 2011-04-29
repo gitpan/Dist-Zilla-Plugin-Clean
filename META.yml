@@ -18,8 +18,9 @@ requires:
   Moose: 0
 resources:
   bugtracker: https://github.com/AlexBio/Dist-Zilla-Plugin-Clean/issues
+  homepage: http://search.cpan.org/dist/Dist-Zilla-Plugin-Clean/
   repository: git://github.com/AlexBio/Dist-Zilla-Plugin-Clean.git
-version: 0.01
+version: 0.02
 x_Dist_Zilla:
   plugins:
     -
@@ -81,11 +82,11 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GitHub::Meta
       name: '@Author::ALEXBIO/@GitHub/GitHub::Meta'
-      version: 0.06
+      version: 0.07
     -
       class: Dist::Zilla::Plugin::GitHub::Update
       name: '@Author::ALEXBIO/@GitHub/GitHub::Update'
-      version: 0.06
+      version: 0.07
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Author::ALEXBIO/MetaConfig'
@@ -122,6 +123,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::InstallRelease
       name: '@Author::ALEXBIO/InstallRelease'
       version: 0.007
+    -
+      class: Dist::Zilla::Plugin::Clean
+      name: '@Author::ALEXBIO/Clean'
+      version: 0.01
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

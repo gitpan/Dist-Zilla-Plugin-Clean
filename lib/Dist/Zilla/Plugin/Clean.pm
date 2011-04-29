@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Clean;
 BEGIN {
-  $Dist::Zilla::Plugin::Clean::VERSION = '0.01';
+  $Dist::Zilla::Plugin::Clean::VERSION = '0.02';
 }
 
 use Moose;
@@ -16,7 +16,7 @@ Dist::Zilla::Plugin::Clean - Clean after release
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -26,21 +26,19 @@ In your F<dist.ini>:
 
 =head1 DESCRIPTION
 
-Damn simple L<Dist::Zilla> plugin that runs C<dzil clean> after the release.
+Damn simple L<Dist::Zilla> plugin that cleans the working directory after the
+release.
 
 =cut
 
 sub after_release {
 	my $self = shift;
 
-	my $output = `dzil clean`;
+	$self -> log('Now cleaning working directory');
 
-	if ($output eq "") {
-		$self -> log('Working directory already cleaned');
-	} else {
-		$self -> log($output);
-		$self -> log('Working directory is now spick-and-span');
-	}
+	$self -> zilla -> clean;
+
+	$self -> log('Working directory is now spick-and-span');
 }
 
 =head1 AUTHOR

@@ -1,3 +1,25 @@
+==============================
+9999-99-99 99:99:99 +0000 HEAD
+==============================
+
+  commit 0c30a1185bbe7e4ea820e723ee61521be9c44bd2
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Apr 29 13:25:49 2011 +0200
+  
+    bump version
+
+  commit d2087d59707ee6041ac01a4bc77fd88361906bcb
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Apr 29 13:24:49 2011 +0200
+  
+    update docs
+
+  commit dda544e1bd2b1aa7304738af008316aced5dbd1c
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Apr 29 13:24:18 2011 +0200
+  
+    use -> zilla -> clean command instead of dzil clean 
+
 ===================================
 End of changes in the last 365 days
 ===================================
