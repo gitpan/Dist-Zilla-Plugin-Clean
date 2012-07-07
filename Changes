@@ -1,9 +1,19 @@
 ==================================================
-Changes from 2011-02-15 00:00:00 +0000 to present.
+Changes from 2011-07-08 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.03 at 2012-02-15 11:08:13 +0000
+version 0.04 at 2012-07-07 12:47:58 +0000
+-----------------------------------------
+
+  Change: e4e06446083fc062ff20097de92cee108937d8b5
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-07-07 14:42:37 +0000
+
+    dist.ini: update repo name 
+
+-----------------------------------------
+version 0.03 at 2012-02-15 11:07:40 +0000
 -----------------------------------------
 
   Change: d4dc72b1936fd8e6873170e34924ffbc90c72441
@@ -30,50 +40,6 @@ version 0.03 at 2012-02-15 11:08:13 +0000
 
     remove tests 
 
------------------------------------------
-version 0.02 at 2011-04-29 11:25:49 +0000
------------------------------------------
-
-  Change: 0c30a1185bbe7e4ea820e723ee61521be9c44bd2
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-29 13:25:49 +0000
-
-    bump version 
-
-  Change: d2087d59707ee6041ac01a4bc77fd88361906bcb
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-29 13:24:49 +0000
-
-    update docs 
-
-  Change: dda544e1bd2b1aa7304738af008316aced5dbd1c
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-29 13:24:18 +0000
-
-    use -> zilla -> clean command instead of dzil clean 
-
------------------------------------------
-version 0.01 at 2011-04-24 20:56:41 +0000
------------------------------------------
-
-  Change: 362bce3bc11d1eb936eae3242f03fad68b0c7917
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-24 22:56:41 +0000
-
-    better DESCRIPTION 
-
-  Change: 79c93c843eed1f262201bbcb86976d0418ade3f5
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-24 22:55:46 +0000
-
-    adjust log messages 
-
-  Change: 6a97f0dd9126b5d35f9f7268ee96ecd84f0e3b64
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-24 22:53:09 +0000
-
-    first commit 
-
-================
-End of releases.
-================
+================================================
+Plus 2 releases after 2011-07-08 00:00:00 +0000.
+================================================

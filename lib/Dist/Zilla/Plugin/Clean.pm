@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Clean;
 {
-  $Dist::Zilla::Plugin::Clean::VERSION = '0.03';
+  $Dist::Zilla::Plugin::Clean::VERSION = '0.04';
 }
 
 use Moose;
@@ -16,7 +16,7 @@ Dist::Zilla::Plugin::Clean - Clean after release
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
