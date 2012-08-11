@@ -24,7 +24,7 @@ resources:
   bugtracker: https://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean/issues
   homepage: http://metacpan.org/release/Dist-Zilla-Plugin-Clean/
   repository: git://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean.git
-version: 0.05
+version: 0.06
 x_Dist_Zilla:
   plugins:
     -
@@ -142,7 +142,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Clean
       name: '@Author::ALEXBIO/Clean'
-      version: 0.04
+      version: 0.05
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

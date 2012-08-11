@@ -47,7 +47,7 @@
          "web" : "https://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -193,7 +193,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Clean",
             "name" : "@Author::ALEXBIO/Clean",
-            "version" : "0.04"
+            "version" : "0.05"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
