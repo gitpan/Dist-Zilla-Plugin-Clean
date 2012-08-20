@@ -38,16 +38,16 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean/issues"
+         "web" : "https://github.com/ghedo/p5-Dist-Zilla-Plugin-Clean/issues"
       },
       "homepage" : "http://metacpan.org/release/Dist-Zilla-Plugin-Clean/",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean.git",
-         "web" : "https://github.com/AlexBio/p5-Dist-Zilla-Plugin-Clean"
+         "url" : "git://github.com/ghedo/p5-Dist-Zilla-Plugin-Clean.git",
+         "web" : "https://github.com/ghedo/p5-Dist-Zilla-Plugin-Clean"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -118,12 +118,12 @@
          {
             "class" : "Dist::Zilla::Plugin::GitHub::Meta",
             "name" : "@Author::ALEXBIO/@GitHub/GitHub::Meta",
-            "version" : "0.26"
+            "version" : "0.27"
          },
          {
             "class" : "Dist::Zilla::Plugin::GitHub::Update",
             "name" : "@Author::ALEXBIO/@GitHub/GitHub::Update",
-            "version" : "0.26"
+            "version" : "0.27"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::NextVersion",
@@ -181,6 +181,11 @@
             "version" : "1.121820"
          },
          {
+            "class" : "Dist::Zilla::Plugin::Git::Push",
+            "name" : "@Author::ALEXBIO/Git::Push",
+            "version" : "1.121820"
+         },
+         {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "@Author::ALEXBIO/UploadToCPAN",
             "version" : "4.300021"
@@ -193,7 +198,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Clean",
             "name" : "@Author::ALEXBIO/Clean",
-            "version" : "0.05"
+            "version" : "0.06"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",

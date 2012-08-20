@@ -1,12 +1,12 @@
 package Dist::Zilla::Plugin::Clean;
 {
-  $Dist::Zilla::Plugin::Clean::VERSION = '0.06';
+  $Dist::Zilla::Plugin::Clean::VERSION = '0.07';
 }
-
-use Moose;
 
 use strict;
 use warnings;
+
+use Moose;
 
 with 'Dist::Zilla::Role::AfterRelease';
 
@@ -16,7 +16,7 @@ Dist::Zilla::Plugin::Clean - Clean after release
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
@@ -26,8 +26,8 @@ In your F<dist.ini>:
 
 =head1 DESCRIPTION
 
-Ultra simple L<Dist::Zilla> plugin that cleans the working directory after the
-release.
+B<Dist::Zilla::Plugin::Clean> is a simple L<Dist::Zilla> plugin thet cleans the
+working directory (just like C<dzil clean>) after a release.
 
 =cut
 
